@@ -53,8 +53,15 @@ header {
   top: 36px;
   left: 0;
   right: 0;
+}
+
+.theme-light header {
   background-color: #fff;
 }
+
+.theme-dark header {
+    background-color: #010101;
+  }
 
 .header {
   width: 100%;
@@ -189,5 +196,3 @@ header {
 .button__sidebar--item ~  .button__sidebar--item {
     margin-top: 12px;
 }
-
-
